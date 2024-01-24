@@ -18,7 +18,7 @@ Access the application through the browser at http://localhost:8080 after starti
 ### API Endpoints
 
 **Get**
-**http://localhost:8080/orders/{orderId}**
+**http://localhost:8080/orders/{orderId} ,**
 **http://localhost:8080/products**
 **Post**
 **http://localhost:8080/products**
@@ -26,10 +26,10 @@ Access the application through the browser at http://localhost:8080 after starti
 ### Samples
 ![image](https://github.com/omerkincal/abas-erp/assets/96655512/9b865c0e-b9d6-4b28-a155-b6bf5462c608)
 
-**   In this get request we are receiving products by orderId.**
+**In this get request we are receiving products by orderId.**
 
 ![image](https://github.com/omerkincal/abas-erp/assets/96655512/2403810c-8f9f-42d9-bd98-286b50ecabc9)
 
-**   In this post request we are sending product request to backend and receiving product response with it's unique id.**
+**In this post request we are sending product request to backend and receiving product response with it's unique id.**
 
 
