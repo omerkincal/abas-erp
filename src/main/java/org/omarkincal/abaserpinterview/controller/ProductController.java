@@ -13,12 +13,18 @@ import java.util.stream.Collectors;
 @RequestMapping("products")
 public class ProductController {
     private ProductServiceImpl productService;
+
     public ProductController(ProductServiceImpl productService) {
         this.productService = productService;
+        System.out.println("------------------");
         productService.calculateTotalAmountOfAllProducts();
+        System.out.println("------------------");
         productService.calculateAveragePriceOfAllProducts();
+        System.out.println("------------------");
         productService.calculateAveragePriceBasedOnProduct();
+        System.out.println("------------------");
         productService.calculateProductQuantityAccordingToOrder();
+        System.out.println("------------------");
     }
 
     // 2. soru

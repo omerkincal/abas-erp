@@ -112,7 +112,6 @@ public class ProductServiceImpl {
             productQuantitiesPerOrder.get(productNo).put(orderId, currentQuantity + quantity);
         }
 
-        // Çıktıyı ekrana bastır
         System.out.println("Tek tek mal bazlı, malların hangi siparişlerde kaç adet olduğu: ");
 
         for (Map.Entry<Integer, Map<Integer, Integer>> productEntry : productQuantitiesPerOrder.entrySet()) {
